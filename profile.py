@@ -15,6 +15,6 @@ node.addService(rspec.Execute(shell="/bin/sh",
 node.addService(rspec.Execute(shell="/bin/sh",
                               command='sudo uwf allow in "Apache Full"'))
 node.addService(rspec.Execute(shell="/bin/sh",
-                              command="sudo systemctl status apache2'))
+                              command='sudo systemctl status apache2'))
 #print the RSpec to the enclosing page.
 portal.context.printRequestRSpec()
