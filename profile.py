@@ -22,7 +22,7 @@ for i in range(2):
     node.routable_control_ip = "true"    
   else:
     node = request.XenVM("observer")
-    node.routable_control_ip = "false"  
+      
   
 
   node.disk_image = "urn:publicid:IDN+emulab.net+image+emulab-ops:UBUNTU18-64-STD"
